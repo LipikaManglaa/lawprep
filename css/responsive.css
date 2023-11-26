@@ -1,0 +1,2174 @@
+@media only screen and (min-width:300px) and (max-width:576px){
+	.header-width {
+    width: 100%;
+    /* justify-content: center; */
+}
+
+
+.logo {
+    width: 120px;
+
+}
+nav{
+    box-shadow: 0px 0px 10px 2px #ccc;
+    position: absolute;
+    left: -100%;
+    transition: .5s;
+    background-color: #fff;
+    top: 0%;
+    width: 80%;
+    padding: 15px 0px;
+    z-index: 999;
+    height: 100vh;
+}
+.sub-menu-list{
+    left: 0px;
+    }
+nav>ul {
+    display: flex;
+    flex-direction: column;
+}
+nav>ul>li:hover .sub-menu {
+    display: flex;
+    cursor: pointer;
+    height: 0px;
+}
+.sub-menu{
+    top: 10%;
+    transform: scaleY(0);
+    transition: .3s;
+   
+    position: initial !important;
+    transform-origin: top;
+}
+
+
+.mobileMenu{
+  
+    height: auto !important;
+    display: flex;
+    transform: scaleY(1);
+}
+.sub-menu:before {
+    display: none;
+}
+.close-submenu{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+   background-color: red;
+    font-size: 20PX;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+    line-height: 25px;
+}
+.blockmenu{
+	display: flex!important;
+}
+nav>ul>li {
+    margin-left: 0px;
+       padding: 10px 10px;
+       border-bottom: 1px solid red;
+ 
+   
+}
+.menu-mobile{
+	display: inline;
+    position: relative;
+}
+.blocksubmenu{
+    left: -100%;
+}
+.showsubitems{
+position: relative;
+}
+.showsubitems::after{
+
+	font-family: 'FontAwesome';
+    position: absolute;
+    right: 10px;
+    top:10px;
+    content:attr(data-content);
+}
+
+
+#banner {
+    background: url(https://lawpreptutorialpatna.com/wp-content/uploads/2021/12/HomePage_Banner_2023_002_desktop.jpg)center;
+    height: 300px;
+    background-size: cover;
+}
+.clat-institute-width {
+    width: 100%;
+    flex-direction: column;
+    
+    }
+   
+    #clat-institute {
+    width: 100%;
+    padding: 20px 0px 30px 0px;
+}
+.clat-institute-width figure {
+    flex-basis: 100%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.clat-institute-width article h1 {
+    font-size: 18px;
+  
+    padding-bottom: 15px;
+    }
+    .clat-institute-width article p {
+      line-height: 26px;
+      font-size: 14px;
+    padding: 0px 15px;
+}
+.our-courses-width {
+    width: 100%;
+    }
+    #our-courses {
+       padding: 20px 0px 40px 0px;
+}
+.our-courses-width h5 {
+       font-size: 30px;
+       margin-bottom: 15px;
+}
+.our-courses-width img {
+    display: table;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.our-courses-width p {
+      font-size: 15px;
+       line-height: 27px;
+    padding: 0px 15px;
+    text-align: justify;
+}
+.our-courses-items {
+       flex-direction: column;
+    margin-top: 20px;
+}
+.our-courses-item1 {
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 25px 20px 20px 20px;
+    margin: 15px;
+    }
+    .our-courses-item1 h6 {
+       font-size: 20px;
+}
+.law-prep-tutorial-width {
+    width: 100%;
+}
+#law-prep-tutorial {
+      padding: 20px 0px;
+}
+.law-prep-tutorial-width h5 {
+    font-size: 22px;
+}
+.law-prep-tutorial-items{
+	flex-direction: column;
+	margin: 15px;
+}
+.law-prep-tutorial-item1 {
+    background: #fff;
+    border-bottom: 5px solid #cfcfcf;
+    padding: 15px 7px;
+    flex-basis: 100%;
+    margin-bottom: 15px;
+}
+.law-prep-tutorial-img {
+    width: 100px;
+    height: 100px;
+        padding: 15px;
+    
+    }
+    .law-prep-tutorial-item1 img {
+    width: 70px;
+    height: 70px;
+}
+.law-prep-tutorial-item1 h6 {
+       font-size: 35px;
+    }
+    .law-prep-tutorial-item1 p {
+     font-size: 16px;
+       margin-bottom: 10px;
+}
+#student-advantage {
+    padding: 25px 0px;
+    }
+    .student-advantage-width {
+    width: 100%;
+}
+.student-advantage-width h2 {
+        font-size: 23px;
+    }
+    .student-advantage-width>h3 {
+    
+    font-size: 18px;
+       margin: 10px 5px;
+}
+.student-advantage-width>img {
+       padding-bottom: 20px;
+    width: 70%;
+}
+.student-advantage-items{
+	flex-direction: column;
+	margin: 0px 15px;
+}
+.student-advantage-list-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.student-advantage-list-item h3 {
+      font-size: 16px;
+}
+.student-advantage-list-item {
+     margin-bottom: 10px;
+}
+.student-advantage-list1>ul>li {
+       font-size: 13px;
+       line-height: 24px;
+}
+.student-advantage-list1 {
+      padding: 20px;
+    }
+    #student-sucsess {
+        padding: 30px 0px;
+}
+.student-sucsess-width {
+    width: 100%;
+    }
+    .student-sucsess-width h3 {
+       font-size: 25px;
+}
+.student-sucsess-width>img {
+    margin: 10px auto;
+    width: 50%;
+    }
+    .student-sucsess-items {
+    width: 100%;
+        flex-direction: column;
+}
+.student-sucsess-list-item {
+    border: 6px solid #343362;
+    height: 110px;
+    width: 100%;
+    max-width: 110px;
+        padding: 7px;
+}
+.student-sucsess-img>img {
+    width: 40px;
+}
+
+.student-sucsess-list>figure>img{
+height: 60%;
+}
+.student-sucsess-list>figure>p {
+     font-size: 12px;
+    margin: 0px 10px;
+    
+}
+
+.student-sucsess-list{
+	margin-bottom: 15px;
+}
+#testimonial {
+       padding: 20px 0px;
+}
+.testimonial-width {
+    width: 100%;
+    }
+    .testimonial-width>h3 {
+        font-size: 20px;
+}
+.testimonial-width>img {
+    margin: 10px auto;
+    display: table;
+    width: 40%;
+}
+.testimonial-item {
+    flex-direction: column;
+    margin: 15px;
+}
+.testimonial-item-list {
+       margin-bottom: 15px;
+}
+.testimonial-item-list>iframe {
+    height: 250px;
+    }
+    .testimonial-item-list>p {
+        font-size: 16px;
+     padding: 0px 0px 10px 0px;
+}
+#best-faculty {
+       padding: 20px 0px;
+}
+
+.best-faculty-width {
+    width: 100%;
+}
+.best-faculty-border {
+    border-top: 7px solid var(--sconday-color);
+    border-bottom: 7px solid var(--sconday-color);
+    padding: 10px 0px;
+    width: 80%;
+    margin: auto;
+}
+.best-faculty-border>h3 {
+      font-size: 24px;
+    }
+    .best-faculty-border>img {
+    margin: 15px auto;
+       width: 60%;
+}
+.best-faculty-items {
+    
+    flex-direction: column-reverse;
+    }
+    .best-faculty-form {
+    flex-basis: 100%;
+}
+.input-label-data {
+       flex-direction: column;
+}
+.input-label {
+    
+    margin-bottom: 15px;
+}
+.input-label>label {
+    font-family: var(--font-family);
+    font-size: 13px;
+    margin-bottom: 3px;
+    }
+    .input-label>input, .input-label>select, .input-label>textarea {
+    padding: 10px 6px;
+        font-size: 14px;
+}
+.input-label-captcha{
+	flex-direction: column-reverse;
+	row-gap: 15px;
+}
+.input-check span p {
+    font-size: 14px;
+    }
+    .input-btn>button {
+      padding: 10px 6px;
+       font-size: 20px;
+}
+.best-faculty-img {
+	width: 80%;
+	margin: auto;
+}
+.best-faculty-img >img{
+	width: 100%;
+}
+#faq {
+        padding: 20px 0px;
+}
+.faq-width {
+    width: 100%;
+}
+.faq-width>h3 {
+    font-size: 25px;
+    }
+    .faq-width>img {
+      width: 50%;
+}
+.faq-list {
+    width: 100%;
+    }
+    .faq-item{
+    	margin: 15px;
+    }
+    .faq-item>h3 {
+      padding: 10px 10px;
+    font-size: 15px;
+}
+
+.faq-item>p {
+    line-height: 23px;
+    font-size: 13px;
+    line-height: 26px;
+    padding: 12px 13px 15px 13px;
+}
+#footer {
+      padding: 20px 0px 20px 0px;
+}
+.footer-width {
+    width: 100%;
+    }
+    .footer-width figure {
+    margin: 0px auto 20px auto;
+    width: 150px;
+    padding: 8px 15px;
+}
+.footer-content {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-address {
+    padding-left: 20px;
+}
+.footer-address>h3 {
+        font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .contact-office {
+    display: flex;
+    margin: 10px 0px;
+}
+.contact-office>i {
+    margin-right: 7px;
+    font-size: 15px;
+}
+.contact-office>h5 {
+    
+    font-size: 15px;
+}
+.contact-icon>p {
+    
+    font-size: 12px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.contact-icon-phone {
+    display: flex;
+    margin: 15px 0px 20px 0px;
+    }
+    .contact-icon-phone>i {
+    margin-right: 7px;
+    font-size: 15px;
+}
+.contact-icon-phone>p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    }
+    .footer-address-course {
+    flex-basis: 28%;
+    padding-left: 45px;
+}
+.footer-address-course>h3 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.contact-icon-course>ul>li {
+    font-size: 12px;
+    font-family: var(--font-family);
+    margin-bottom: 17px;
+    }
+    #footer-bottom {
+    width: 100%;
+    padding: 15px 0px 70px 0px;
+}
+.footer-bottom-width {
+    width: 100%;
+    }
+    .footer-bottom-content {
+    display: flex;
+    flex-direction: column;
+}
+.footer-bottom-link>p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    .footer-bottom-icon {
+    
+    justify-content: center
+}
+.footer-bottom-icon-list {
+    width: 25px;
+    height: 25px;
+   
+    margin-left: 15px;
+}
+.enquire-now{
+    width: 50%;
+    top:calc(100% - 40px);
+    left:0;
+}
+.enquire-now>button {
+    background: var(--primary-color);
+   width: 100%;
+    border: 0px solid #fff;
+    transform: rotate(360deg);
+    font-family: helvetica;
+    height: 40px;
+    border-radius: 0px;
+}
+.call-now{
+    width: 50%;
+    top:calc(100% - 40px);
+    left: 50%;
+}
+.call-now>button {
+    background: #fff;
+    width: 100%;
+    border: 0px solid #fff;
+    transform: rotate(360deg);
+    font-family: helvetica;
+    color: #fff;
+    height: 40px;
+    border-radius: 0px;
+}
+.banner-about-width {
+    width: 100%;
+}
+.banner-about-width>h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 60px 0px;
+}
+.about-content-width {
+    width: 100%;
+}
+.about-mission-width {
+    width: 100%;
+}
+.about-content-img {
+    padding: 30px 0px;
+    flex-direction: column;
+}
+about-content-list {
+    flex-basis: 100%;
+     margin: auto;
+}
+.about-content-list>img {
+    width: 160px;
+    height: 100px;
+       margin: 0px auto;
+       display: table;
+}
+.about-content-detail {
+    flex-basis: 100%;
+}
+.about-content-detail>h3 {
+     display: table;
+    margin:15px auto;
+    font-size: 22px;
+}
+.about-content-detail>p {
+      font-size: 12px;
+        line-height: 22px;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    text-align: justify;
+}
+#about-mission {
+       padding: 0px 0px;
+}
+.about-mission-vision>h3 {
+   
+    font-size: 22px;
+  
+    display: table;
+    margin:0px auto 20px auto;
+}
+.about-mission-vision>ul {
+      margin-bottom: 15px;
+    justify-content: center;
+}
+.about-mission-content-list{
+    padding: 0px 15px
+}
+.about-mission-content>p {
+        margin-bottom: 10px;
+        font-size: 12px;
+       line-height: 24px;
+    text-align: justify;
+}
+#about-usp {
+    width: 100%;
+    padding: 26px 0px;
+}#about-usp {
+       padding: 26px 0px;
+}
+.about-usp-width {
+    width: 100%;
+}
+.about-usp-width>h3 {
+    font-size: 23px;
+       margin-bottom:15px;
+    text-align: center;
+}
+.about-usp-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+.about-mission-content-item-list {
+    border-bottom: none;
+    border-right: none;
+    padding: 20px;
+    flex-basis: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    margin-bottom: 15px;
+}
+.about-mission-content-item-list>img {
+    width: 40px;
+    margin-bottom: 7px;
+}
+.about-mission-content-item-list>h4 {
+    font-size: 15px;
+       margin-bottom: 10px;
+}
+
+.about-mission-content-item-list>p {
+    font-size: 14px;
+          line-height: 23px;
+    margin-bottom: 0px;
+}
+.banner-conception-width {
+    padding: 30px 0px;
+}
+
+.banner-conception-width>h3 {
+       font-size: 35px;
+    margin-bottom: 15px;
+}
+.banner-conception-width>h5 {
+    text-align: center;
+    font-size: 19px;
+}
+#conception-content {
+       padding: 30px 0px;
+}
+.conception-content-width {
+    width: 100%;
+}
+.conception-content-list {
+    border: 2px solid #e0e5eb;
+    padding: 20px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px 20px 20px;
+}
+.conception-content-list>img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+.conception-detail>p {
+   text-align: justify;
+    font-size: 13px;
+    line-height: 22px;
+      margin-bottom: 10px;
+}
+.conception-detail>h3 {
+    margin-top: 15px;
+    padding-top: 15px;
+       font-size: 16px;
+    line-height: 24px;
+       margin-bottom: 9px;
+}
+.conception-detail>h5 {
+    margin-top: 10px;
+        font-size: 13px;
+    line-height: 21px;
+       margin-bottom: 0px;
+}
+.career-opportunites-width {
+    width: 100%;
+}
+.career-opportunites-content {
+  
+    padding: 20px 0px;
+    flex-direction: column-reverse;
+}
+.career-opportunites-content>figure {
+       width: 150px;
+    height: 150px;
+   
+    display: table;
+    margin: auto;
+}
+.career-opportunites-content>figure>img{
+    width: 100%;
+    height: 100%;
+}
+.career-opportunites-detail {
+    flex-basis: 100%;
+    text-align: center;
+}
+.career-opportunites-detail>p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.career-opportunites-detail>h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.career-opporunites-items-width {
+    width: 100%;
+    
+    padding: 20px;
+    margin: 0px auto 20px auto;
+    transform: translateY(0px);
+}
+.career-opporunites-items-width>h5 {
+        font-size: 22px;
+       padding-top: 0px;
+    padding-left: 10px;
+        margin-bottom: 12px;
+}
+.career-opporunites-items-width>ul>li {
+    margin-bottom: 10px;
+    font-size: 14px;
+   }
+   #career-management {
+    padding: 15px 0px;
+}
+.career-management-width {
+    width: 100%;
+}
+.career-management-width>h3 {
+        font-size: 22px;
+    text-align: center;
+}
+.career-management-items {
+       flex-direction: column;
+}
+.career-management-list1,.career-management-list,.career-management-list2,.career-management-list3 {
+        padding: 35px;
+    flex-basis: 100%;
+}
+.career-management-list>h4, .career-management-list1>h4, .career-management-list2>h4, .career-management-list3>h4 {
+        font-size: 20px;
+    line-height: 25px;
+       margin-bottom: 16px;
+}
+.career-management-list>p, .career-management-list1>p, .career-management-list2>p, .career-management-list3>p {
+    font-size: 14px;
+}
+.career-management-width>p {
+       font-size: 12px;
+        margin-top: 20px;
+    padding: 0px 15px;
+}
+#must-read-books {
+       padding: 20px 0px;
+}
+.must-read-books-width {
+    width: 100%;
+}
+.must-read-books-items {
+      flex-direction: column;
+}
+.must-read-books-list {
+    flex-basis: 100%;
+}
+.must-read-books-list>figure>img {
+    width: 100%;
+    height: 400px;
+}
+.must-read-books-content {
+       transform: translateY(-30px);
+}
+.must-read-books-content>h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+}
+.must-read-books-content>h5 {
+       font-size: 14px;
+    line-height: 15px;
+}
+.must-read-books-content>p {
+       margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.banner-law-school {
+  
+    padding: 20px 0px;
+    flex-direction: column-reverse;
+}
+.life-law-school-banner {
+      text-align: center;
+    padding-top: 30px;
+}
+.life-law-school-banner>h3 {
+    font-size: 30px;
+       margin-bottom: 12px;
+}
+.life-law-school-banner>p {
+    font-size: 15px;
+}
+.banner-law-school>figure{
+height: 120px;
+margin: auto;
+
+}
+
+.banner-law-school >figure>img{
+    height: 100%;
+}
+.life-school-content-img {
+     padding: 20px 0px;
+    flex-direction: column;
+}
+.life-school-content-list {
+    width: 200px;
+    margin: auto;
+}
+.life-school-content-detail {
+    flex-basis: 100%;
+    text-align: center;
+}
+.life-school-content-detail>h5 {
+  
+    font-size: 15px;
+     margin-bottom: 8px;
+}
+.life-school-content-detail>h3 {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.life-school-content-detail>p {
+       font-size: 14px;
+        line-height: 22px;
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0px 15px;
+}
+#life-school-academics {
+    width: 100%;
+    padding: 20px 0px;
+}
+.life-school-academics-inner {
+    width: 100%;
+}
+.life-school-academics-inner>h2 {
+       font-size: 20px;
+    padding: 0px;
+}
+.life-school-academics-inner>img {
+    margin: 15px auto;
+}
+.life-school-academics-content {
+       padding-top: 0px;
+    flex-direction: column-reverse;
+}
+.life-school-academics-content>figure{
+    width: 300px;
+    margin: auto;
+}
+.life-school-academics-content-item {
+    flex-basis: 100%;
+}
+.life-school-academics-content-item p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px 15px;
+  
+}
+#life-school-parliment {
+        padding: 30px 0px;
+}
+.life-school-parliment-inner {
+    width: 100%;
+}
+.life-school-parliment-item {
+       flex-direction: column;
+}
+.life-school-parliment-item>figure{
+    width: 300px;
+    margin: auto;
+}
+.life-school-parliment-item>figure>img{
+    width: 100%;
+}
+.life-school-parliment-content>p {
+       font-size: 14px;
+    line-height: 22px;
+    padding: 0px 15px;
+}
+.life-school-parliment-inner>p {
+      margin-top: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0px 15px;
+}
+#law-school-academics-more {
+    background: #e9ecf5;
+    padding: 30px 0px;
+}
+.law-school-academics-more-inner {
+    width: 100%;
+}
+.law-school-academics-more-inner>h3 {
+    color: #000;
+    font-size: 20px;
+}
+.law-school-academics-more-inner>img {
+    margin: 10px auto;
+}
+.law-school-academics-more-inner>p {
+    font-size: 14px;
+    padding: 15px 15px 0px 15px;
+    line-height: 24px;
+    }
+    #clat-crash-course {
+               padding: 30px 0px;
+    }
+    .clat-crash-course-width {
+        width: 100%;
+}
+.clat-crash-course-width>p {
+    font-size: 14px;
+    line-height: 22px;
+     margin-bottom: 15px;
+       text-indent: 24px;
+}
+.clat-course-content-items {
+    width: 100%;
+       flex-direction: column;
+}
+.clat-course-content-item-list>h4 {
+    font-size: 18px;
+    line-height: 23px;
+       margin-top: 15px;
+       margin-bottom: 15px;
+}
+.clat-course-content-item-list>button {
+     font-size: 14px;
+}
+#test-seires-mock-test {
+   
+    padding: 30px 0px;
+}
+.test-seires-mock-test-width {
+    width: 100%;
+}
+.test-seires-mock-test-width>h3 {
+      font-size: 20px;
+     margin: 10px 0px;
+     padding: 0px 15px;
+}
+.test-series-videos>iframe{
+    width:auto;
+}
+#text-series {
+       padding: 20px 0px;
+}
+.text-series-width {
+    width: 100%;
+}
+.test-series-items {
+       margin-bottom: 25px;
+    padding-left: 20px;
+}
+.test-series-items>h3 {
+      font-size: 20px;
+       padding: 15px 0px;
+}
+.test-series-items>ul>li {
+    font-size: 15px;
+        margin-bottom: 5px;
+}
+.test-series-price {
+    padding: 15px;
+       font-size: 20px;
+    margin-right: 15px;
+}
+.test-series-items>button {
+       padding: 12px;
+    margin: 30px 0px;
+        font-size: 20px;
+      width: 170px;
+}
+#test-series-top-reult {
+    width: 100%;
+    padding: 30px 0px;
+}
+.test-series-top-reult-width {
+    width: 100%;
+}
+.test-series-top-reult-width>h3 {
+       font-size: 20px;
+   }
+   .test-series-top-reult-width>img {
+    margin: 15px auto;
+     width: 60%;
+}
+.test-series-top-reult-item-list {
+    flex-basis: 100%;
+      padding: 20px;
+        margin-bottom: 30px;
+}
+.test-series-top-reult-item-list>figure>img {
+    width: 150px;
+    height: 150px;
+        margin: 20px 0px;
+}
+.test-series-top-reult-item-list>h3 {
+        font-size: 20px;
+}
+.test-series-top-reult-item-list>p {
+        margin: 10px 0px;
+}
+.test-series-top-air {
+    height: 69px;
+    width: 60px;
+}
+.test-series-top-air>h5 {
+       font-size: 20px;
+}
+.test-series-top-air>h4 {
+      font-size: 26px;
+}
+.test-series-test-prep {
+      padding: 30px 0px;
+}
+.test-series-test-prep-width {
+    width: 100%;
+}
+.test-series-buy-now {
+       padding-bottom: 50px;
+    flex-direction: column;
+}
+.test-series-buy-now {
+       padding-bottom: 50px;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.test-series-buy-now>button {
+       padding: 10px;
+      margin: 0px 20px;
+}
+.test-series-test-prep-width>h3 {
+       font-size: 25px;
+       text-align: center;
+}
+.test-series-buy-now>h3 {
+       font-size: 20px;
+    padding: 0px 15px;
+}
+#media-coverages {
+       padding: 25px 0px;
+   }
+   .media-coverages-width {
+    width: 100%;
+}
+.media-coverages-width>h3 {
+     font-size: 20px;
+    line-height: 10px;
+}
+.media-coverages-width>img {
+    margin: 15px auto;
+      width: 34%;
+}
+.media-coverages-width>p {
+       font-size: 12px;
+    line-height: 20px;
+       margin: 10px 0px 20px 0px;
+       padding: 0px 10px;
+}
+
+.media-coverages-items {
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 0px 15px;
+    
+}
+.media-coverages-list {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+#blog-expert-coaching {
+    width: 100%;
+    padding: 30px 0px;
+}
+.blog-expert-coaching-width {
+    width: 100%;
+    justify-content: space-around;
+       flex-direction: column-reverse;
+       row-gap: 15px;
+}
+.blog-expert-coaching-list-items>h3 {
+     font-size: 16px;
+}
+.blog-expert-coaching-list-items>ul>li {
+      padding:0px 15px 12px 15px;
+    line-height: 14px;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.blog-expert-coaching-list-items {
+    margin: 0px 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+.blog-expert-coaching-list {
+    flex-basis: 100%;
+}
+.blog-expert-coaching-content{
+    margin: 0px 15px 15px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    padding: 0px 15px;
+}
+.blog-expert-coaching-content>h3 {
+    font-size: 18px;
+       margin-bottom: 0px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.blog-expert-coaching-content>img {
+       margin-bottom: 10px;
+}
+.blog-expert-coaching-content>p {
+        font-size: 12px;
+    line-height: 22px;
+}  
+#contact-banner {
+     height: 250px;
+    background-size: cover;
+}
+#info-contact {
+    width: 100%;
+    padding: 30px 0px;
+}
+.info-contact-width {
+    width: 100%;
+} 
+.info-contact-items {
+      flex-direction: column;
+}
+.info-contact-list1,.info-contact-list2,.info-contact-list3 {
+       flex-basis: 100%;
+    padding: 15px 25px;
+}
+.info-contact-list1>h3,.info-contact-list2>h3,.info-contact-list3>h3 {
+      font-size: 20px;
+      margin: 10px 0px;
+}
+.info-contact-list1>p, .info-contact-list2>p,.info-contact-list3>p {
+     font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+#contact-touch {
+      padding: 20px 0px;
+    border-bottom: 5px solid #ccc;
+}
+.contact-touch-width {
+    width: 100%;
+}
+.contact-touch-width>h3 {
+       font-size: 22px;
+       margin: 0px 0px;
+}
+.contact-touch-width>img {
+    width: 60%;
+    margin: 10px auto;
+}
+.best-faculty-items-contact {
+        flex-direction: column;
+    padding: 0px 15px;
+}
+.find-route-width>h3 {
+     font-size: 22px;
+   margin: 0px 0px;
+}
+#find-route {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 5px solid #ccc;
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:991px){
+	.header-width {
+    width: 100%;
+  
+}
+.logo {
+    flex-basis: 15%;
+
+}
+nav{
+    flex-basis: 80%;
+}
+nav>ul{
+	justify-content: space-between;
+}
+nav>ul>li {
+    margin-left: 0px;
+    margin-right: 8px;
+      padding: 15px 0px;
+    font-size: 12px;
+   
+	}
+	#banner {
+  
+    background: url(https://lawpreptutorialpatna.com/wp-content/uploads/2021/12/HomePage_Banner_2023_002_desktop.jpg)center;
+    background-size: cover;
+    height: 300px;
+}
+.clat-institute-width {
+    width: 100%;
+   justify-content: space-around;    
+    }
+     #clat-institute {
+    width: 100%;
+    padding: 40px 0px;
+
+}
+.clat-institute-width figure {
+    flex-basis: 40%;
+      height: 300px;
+}
+.clat-institute-width article h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 17px;
+}
+.clat-institute-width article p {
+    text-align: justify;
+    line-height: 29px;
+    }
+    .clat-institute-width article {
+    flex-basis: 50%;
+}
+.our-courses-width {
+    width: 100%;
+    }
+    .our-courses-width {
+    width: 100%;
+    }
+    #our-courses {
+       padding: 30px 0px;
+}
+.our-courses-width h5 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    }
+    .our-courses-width p {
+       font-size: 15px;
+        line-height: 30px;
+    padding: 0px 80px;
+}
+.our-courses-item1 h6 {
+        font-size: 18px;
+}
+.our-courses-item1 {
+      padding: 20px 20px 35px 20px;
+      flex-basis: 30%;
+    margin: 0px 0.4%;
+}
+.our-courses-items {
+	gap: 3%;
+	}
+	.law-prep-tutorial-width {
+    width: 100%;
+}
+#law-prep-tutorial {
+      padding: 30px 0px;
+}
+.law-prep-tutorial-width h5 {
+    font-size: 30px;
+}
+.law-prep-tutorial-items{
+	flex-wrap: wrap;
+	margin:0px 15px;
+}
+.law-prep-tutorial-item1 {
+      border-bottom: 6px solid #cfcfcf;
+    padding: 15px 10px;
+    flex-basis: 47%;
+    margin-bottom: 15px;
+    }
+    .law-prep-tutorial-item1 h6 {
+      font-size: 45px;
+}
+.law-prep-tutorial-item1 p {
+      font-size: 18px;
+       margin-bottom: 13px;
+    }
+    #student-advantage {
+    padding: 35px 0px;
+}
+.student-advantage-width {
+    width: 100%;
+    }
+    .student-advantage-width h2 {
+        font-size: 26px;
+}
+.student-advantage-width>h3 {
+       font-size: 20px;
+        margin: 10px 0px;
+}
+.student-advantage-width>img {
+       padding-bottom: 24px;
+}
+.student-advantage-items {
+	margin: 15px;
+	}
+	.student-advantage-list1 {
+    background: #fff;
+    padding: 20px;
+       margin-bottom: 20px;
+    flex-basis: 47%;
+}
+.student-advantage-list-item {
+       margin-bottom: 15px;
+}
+.student-advantage-list-item h3 {
+        font-size: 16px;
+}
+.student-advantage-list1>ul{
+	padding-left: 10px;
+}
+.student-advantage-list1>ul>li {
+       font-size: 13px;
+      line-height: 24px;
+}
+#student-sucsess {
+        padding: 40px 0px;
+}
+.student-sucsess-width {
+    width: 100%;
+    }
+     .student-sucsess-width h3 {
+       font-size: 30px;
+}
+.student-sucsess-width>img {
+    margin: 15px auto;
+    width: 40%;
+    }
+    .student-sucsess-list-item {
+    border: 8px solid #343362;
+    height: 130px;
+    width: 100%;
+    max-width: 130px;
+        padding: 8px;
+}
+.student-sucsess-items {
+    display: flex;
+    width: calc(100% - 30px);
+    margin: 0px 15px;
+}
+.student-sucsess-list>figure>p {
+        font-size: 12px;
+    }
+    #testimonial {
+  
+    padding: 30px 0px;
+}
+.testimonial-width {
+    width: 100%;
+    }
+    .testimonial-width>h3 {
+        font-size: 25px;
+}
+.testimonial-width>img {
+    margin: 13px auto;
+    display: table;
+    width: 50%;
+}
+.testimonial-item-list {
+       flex-basis: 47%;
+    margin-bottom: 20px;
+}
+.testimonial-item-list>iframe {
+    height: 300px;
+    }
+     .testimonial-item-list>p {
+        font-size: 16px;
+     padding: 0px 0px 15px 0px;
+}
+.testimonial-item {
+    display: flex;
+    justify-content: space-around;
+    }
+    #best-faculty {
+       padding: 30px 0px;
+}
+.best-faculty-width {
+    width: 100%;
+}
+.best-faculty-border>h3 {
+      font-size: 30px;
+    }
+    .best-faculty-items {
+    
+    flex-direction: column-reverse;
+    }
+    .best-faculty-img {
+	width: 80%;
+	margin: auto;
+}
+.best-faculty-img >img{
+	width: 100%;
+	margin-bottom: 20px;g
+}
+.input-label-data {
+      justify-content: space-around;
+}
+.input-label {
+        flex-basis: 46%;
+    margin-bottom: 15px;
+}
+.input-label>input, .input-label>select, .input-label>textarea {
+    padding: 12px 6px;
+        font-size: 14px;
+    }
+    .input-label-tab{
+        margin: 0px 2% 15px 2%;
+}
+.input-check{
+    display: flex;
+    margin: 0px 2%;
+}
+.input-btn>button {
+    display: table;
+    
+    text-align: center;
+    width: 80%;
+    margin: 15px auto;
+    padding: 13px 10px;
+    }
+    .best-faculty-border {
+       padding: 30px 0px;
+    width: 80%;
+    margin: auto;
+}
+#faq {
+       padding: 30px 0px;
+}
+.faq-width {
+    width: 100%;
+}
+.faq-width>h3 {
+    font-size: 30px;
+    }
+    .faq-list {
+    width: 100%;
+}
+ .faq-item{
+    	margin: 15px;
+    }
+    .faq-item>h3 {
+        padding: 13px 9px;
+}
+.faq-item>p {
+   
+    line-height: 22px;
+    padding: 12px 13px 20px 13px;
+        font-size: 14px;
+}
+#footer {
+      padding: 30px 0px 30px 0px;
+}
+.footer-width {
+    width: 100%;
+    }
+      .footer-width figure {
+    margin: 0px auto 20px auto;
+    width: 180px;
+    padding: 10px 20px;
+}
+.footer-content {
+        justify-content: space-around;
+    gap: 3%;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.footer-address {
+    flex-basis: 100%;
+}
+.footer-address>h3 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    }
+    .contact-office>i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+.contact-office>h5 {
+      font-size: 17px;
+    }     
+    .contact-office {
+       margin: 12px 0px;
+        }  
+        .contact-icon>p {
+     font-size: 13px;
+      padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-icon-phone {
+      margin: 15px 0px 20px 0px;
+    }
+    .footer-address-course {
+    flex-basis: 45%;
+}
+.footer-address-course>h3 {
+       font-size: 18px;
+       margin-bottom: 20px;
+}
+.contact-icon-course>ul>li {
+    font-size: 14px;
+        margin-bottom: 20px;
+}
+.footer-bottom-width {
+    width: 100%;
+    }
+    .footer-bottom-content {
+     flex-direction: column;
+     justify-content: center;
+}
+.footer-bottom-link>p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+    .footer-bottom-icon {
+        justify-content: center;
+}
+.scholrship-test {
+    position: fixed;
+    top: 106px;
+   
+}
+#footer-bottom {
+    width: 100%;
+    padding: 20px 0px 70px 0px;
+    }
+.enquire-now{
+    width: 50%;
+     top:calc(100% - 40px);
+    left:0;
+}
+.enquire-now>button {
+    background: var(--primary-color);
+   width: 100%;
+    border: 0px solid #fff;
+    transform: rotate(360deg);
+    font-family: helvetica;
+    height: 40px;
+    border-radius: 0px;
+}
+.call-now{
+    width: 50%;
+    top:calc(100% - 40px);
+    left: 50%;
+}
+.call-now>button {
+    background: #fff;
+    width: 100%;
+    border: 0px solid #fff;
+    transform: rotate(360deg);
+    font-family: helvetica;
+    color: #fff;
+    height: 40px;
+    border-radius: 0px;
+}
+.banner-about-width {
+    width: 100%;
+}
+.banner-about-width>h3 {
+    font-size: 50px;
+    padding: 70px 0px;
+}
+.about-content-width {
+    width: 100%;
+}
+.about-mission-width {
+    width: 100%;
+}.about-content-img {
+    padding: 30px 0px;
+  }
+.about-content-list {
+    flex-basis: 20%;
+}
+.about-content-list>img {
+    width: 200px;
+    height: 120px;
+       margin-right: 12px;
+}
+about-content-detail>h3 {
+     margin-bottom: 15px;
+}
+.about-content-detail>p {
+        font-size: 13px;
+       line-height: 23px;
+    margin-bottom: 13px;
+}
+#about-mission {
+    padding: 0px;
+}
+.about-mission-vision>h3 {
+      font-size: 25px;
+      margin-bottom: 16px;
+      margin: 0px auto 15px auto;
+      display: table;
+}
+.about-content-detail>h3 {
+      font-size: 26px;
+        margin-bottom: 12px;
+}
+.about-mission-vision>ul{
+        justify-content: center;
+}
+.about-mission-content-list{
+    padding: 0px 15px;
+}
+.about-mission-content>p {
+  
+    margin-bottom: 12px;
+      line-height: 24px;
+}
+#about-usp {
+       padding: 30px 0px;
+}
+.about-usp-width {
+    width: 100%;
+}
+.about-usp-width>h3 {
+    font-size: 22px;
+        margin: 0px 15px 15px 15px;
+}
+.about-mission-content-item-list {
+    border-bottom: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    padding: 25px;
+    flex-basis: 50%;
+}
+.about-mission-content-item-list>img {
+    width: 40px;
+    margin-bottom: 6px;
+}
+.about-mission-content-item-list>h4 {
+    font-size: 15px;
+     margin-bottom: 10px;
+}
+.about-mission-content-item-list>p {
+    font-size: 13px;
+       line-height: 23px;
+    margin-bottom: 0px;
+}
+.about-mission-content-item-list:nth-child(n+4) {
+    border-bottom:1px solid #cdcdcd;
+}
+.banner-conception-width {
+    padding: 40px 0px;
+}
+
+.banner-conception-width>h3 {
+       font-size: 40px;
+    margin-bottom: 15px;
+}
+.banner-conception-width>h5 {
+    text-align: center;
+    font-size: 25px;
+}
+.conception-content-width {
+    width: 100%;
+}
+.conception-content-list {
+       margin-bottom: 30px;
+}
+.conception-content-list>img {
+    width: 200px;
+    height: 205px;
+}
+.conception-detail>p {
+      font-size: 14px;
+    line-height: 23px;
+        margin-bottom: 10px;
+}
+.conception-detail>h3 {
+    margin-top: 15px;
+    padding-top: 15px;
+   
+    font-size: 17px;
+    line-height: 24px;
+}
+.conception-detail>h5 {
+    margin-top: 10px;
+        font-size: 14px;
+    line-height: 24px;
+        margin-bottom: 5px;
+}
+.career-opportunites-width {
+    width: 100%;
+    padding: 0px 30px;
+}
+.career-opportunites-content {
+  
+    padding: 40px 0px;
+ 
+}
+.career-opportunites-content>figure {
+width: 200px;
+height: 220px;
+}
+.career-opportunites-content>figure>img {
+    width: 100%;
+    height: 100%;
+}
+.career-opporunites-items-width {
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto 30px auto;
+    transform: translateY(0px);
+}
+.career-opporunites-items-width>h5 {
+       font-size: 22px;
+    line-height: 29px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.career-opporunites-items-width>ul>li {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+#career-management {
+    width: 100%;
+    padding: 30px 0px;
+}
+.career-opportunites-detail>p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.career-opportunites-detail>h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.career-management-width {
+    width: 100%;
+}
+.career-management-width>h3 {
+    font-size: 22px;
+    padding-left: 30px;
+}
+.career-management-items {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.career-management-list,.career-management-list1,.career-management-list2,.career-management-list3 {
+       padding: 45px 30px;
+    flex-basis: 50%;
+}
+.career-management-list>h4, .career-management-list1>h4, .career-management-list2>h4, .career-management-list3>h4 {
+    font-size: 22px;
+       margin-bottom: 12px;
+}
+.career-management-width>p {
+        margin-top: 30px'
+}
+.banner-about-width {
+    width: 100%;
+}
+.banner-about-width>h3 {
+       font-size: 50px;
+}
+#must-read-books {
+    width: 100%;
+    padding: 50px 0px;
+}
+.must-read-books-width {
+    width: 100%;
+}
+.must-read-books-list {
+    flex-basis: 47%;
+}
+.must-read-books-content>h4 {
+     font-size: 15px;
+}
+.must-read-books-content>h5 {
+       font-size: 13px;
+}
+.must-read-books-content>p {
+    font-size: 13px;
+}
+.life-law-school-banner {
+       padding-top: 60px;
+}
+
+.life-school-content-img {
+      padding: 30px 0px;
+}
+.life-school-content-list {
+    width: 250px;
+    margin-right: 20px;
+}
+.life-school-content-detail>h5 {
+      font-size: 16px;
+      margin-bottom: 8px;
+}
+.life-school-content-detail>h3 {
+        font-size: 25px;
+       margin-bottom: 13px;
+}
+.life-school-content-detail>p {
+    font-size: 14px;
+      line-height: 23px;
+       text-align: justify;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+.life-law-school-banner{
+    padding-left: 20px;
+}
+.life-law-school-banner>h3 {
+    font-size: 30px;
+         margin-bottom: 10px;
+}
+.banner-law-school >figure{
+    flex-basis: 40%;
+}
+.banner-law-school>figure>img{
+    width: 100%;
+}
+#life-school-academics {
+    width: 100%;
+    padding: 30px 0px;
+ }
+ .life-school-academics-inner {
+    width: 100%;
+ }
+.life-school-parliment-item>figure{
+    margin: auto;
+}
+.life-school-academics-inner>h2 {
+       font-size: 25px;
+    padding: 0px 20px;
+}
+.life-school-academics-content {
+      padding-top: 30px;
+}
+.life-school-academics-content-item>p{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.life-school-academics-content-item {
+    flex-basis:50%;
+}
+.life-school-academics-content>figure{
+    flex-basis: 45%;
+}
+#life-school-parliment {
+    width: 100%;
+    padding: 40px 0px;
+}
+.life-school-parliment-inner {
+    width: 100%;
+}
+.life-school-parliment-item {
+      flex-direction: column;
+}
+.life-school-parliment-content>p {
+       font-size: 15px;
+    line-height: 26px;
+    padding: 0px 15px;
+}
+.life-school-parliment-inner>p {
+       margin-top: 20px;
+    font-size: 15px;
+    line-height: 26px;
+}
+#law-school-academics-more {
+      padding: 40px 0px;
+}
+.law-school-academics-more-inner {
+    width: 100%;
+}
+.law-school-academics-more-inner>h3 {
+        font-size: 26px;
+    padding: 0px 20px;
+}
+.law-school-academics-more-inner>p {
+    font-size: 15px;
+    padding: 15px 15px 0px 15px;
+    line-height: 24px;
+}
+#clat-crash-course {
+      padding: 40px 0px;
+}
+.clat-crash-course-width {
+    width: 100%;
+}
+.clat-crash-course-width>p {
+    font-size: 15px;
+    line-height: 24px;
+     margin-bottom: 15px;
+      text-indent: 34px;
+}
+.clat-course-content-items {
+    width: 100%;
+    justify-content: space-around;
+}
+.clat-course-content-item-list>figure {
+        height: 200px;
+}
+.clat-course-content-item-list>h4 {
+    font-size: 18px;
+      margin-top: 15px;
+      line-height: 25px;
+      height: 40px;
+    
+}
+.clat-course-content-item-list>button {
+
+       font-size: 15px;
+       margin: 0px auto 20px auto;
+}
+#test-seires-mock-test {
+     padding: 40px 0px;
+}
+.test-seires-mock-test-width {
+    width: 100%;
+}
+.test-seires-mock-test-width>h3 {
+    font-size: 30px;
+   margin: 15px 0px;
+}
+#text-series {
+    padding: 20px 0px;
+}
+#text-series {
+    padding: 40px 0px;
+}
+.text-series-width {
+    width: 100%;
+}
+.test-series-items {
+    margin-bottom: 35px;
+ padding-left: 25px;
+}
+.test-series-test-prep {
+        padding: 40px 0px;
+}
+.test-series-test-prep-width {
+    width: 100%;
+   }
+   .test-series-buy-now>h3 {
+     font-size: 25px;
+}
+.test-series-buy-now {
+      padding-bottom: 60px;
+}
+.test-series-test-prep-width>h3 {
+       font-size: 25px;
+        text-align: center;
+   }
+   #test-series-top-reult {
+ padding: 40px 0px;
+}
+.test-series-top-reult-width {
+    width: 100%;
+}
+.test-series-top-reult-width>h3 {
+        font-size: 25px;
+     margin: 12px 0px;
+}
+.test-series-top-reult-width>img {
+    margin: 15px auto;
+}
+.test-series-top-reult-items {
+     justify-content: space-around;
+  }
+  .test-series-top-reult-item-list {
+    flex-basis: 47%;
+        padding: 20px;
+      margin-bottom: 30px;
+  }
+  .test-series-top-reult-item-list>figure>img {
+    width: 170px;
+    height: 170px;
+       margin: 20px auto;
+}
+.test-series-top-reult-item-list>h3 {
+     font-size: 20px;
+}
+.test-series-top-reult-item-list>p {
+    text-align: center;
+    margin: 10px 0px;
+}
+.test-series-top-air {
+    height: 75px;
+    width: 60px;
+}
+.test-series-items>h3 {
+      font-size: 25px;
+        padding: 15px 0px;
+      margin-bottom: 15px;
+}
+
+.test-series-items>ul>li {
+     font-size: 17px;
+        line-height: 28px;
+       margin-bottom: 5px;
+       padding-right: 15px;
+   }
+   .test-series-price {
+    padding: 15px;
+      font-size: 20px;
+    margin-right: 15px;
+}
+.test-series-items>button {
+       padding: 15px;
+    margin: 20px 0px;
+       font-size: 20px;
+       width: 170px;
+}
+#media-coverages {
+    padding: 35px 0px;
+}
+.media-coverages-width {
+    width: 100%;
+}
+.media-coverages-width>h3 {
+    font-size: 30px;
+   
+}
+.media-coverages-width>p {
+        font-size: 14px;
+    line-height: 27px;
+       text-align: justify;
+    margin: 20px 0px;
+    padding: 0px 15px;
+}
+.media-coverages-list {
+    width: 47%;
+    margin-bottom: 30px;
+    height: 250px;
+}
+.media-coverages-items {
+      justify-content: space-around;
+   }
+   .banner-about-width {
+    width: 100%;
+    
+   
+}
+.blog-expert-coaching-width {
+    width: 100%;
+    padding: 0px 15px;
+}
+#blog-expert-coaching {
+        padding: 40px 0px;
+}
+
+.blog-expert-coaching-content>h3 {
+        font-size: 20px;
+    line-height: 30px;
+        margin-bottom: 0px;
+    line-height: 30px;
+}
+.blog-expert-coaching-list-items>h3 {
+       font-size: 15px;
+}
+.blog-expert-coaching-list-items>ul>li {
+        padding-bottom: 10px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.blog-expert-coaching-content>p {
+     font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.blog-expert-coaching-list-items>h3 {
+       padding: 8px 8px;
+      font-size: 13px;
+}
+.blog-expert-coaching-list-items>ul>li {
+       padding-bottom: 8px;
+    line-height: 21px;
+    margin-top: 8px;
+    font-size: 12px;
+}
+.blog-expert-coaching-list {
+    flex-basis: 65%;
+}
+.blog-expert-coaching-list-items {
+    flex-basis: 30%;
+}
+#info-contact {
+    width: 100%;
+    padding: 45px 0px;
+}
+.info-contact-width {
+    width: 100%;
+} 
+.contact-touch-width {
+    width: 100%;
+}
+#contact-banner {
+       height: 300px;
+}
+.info-contact-list1>h3,.info-contact-list2>h3,.info-contact-list3>h3 {
+       font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.info-contact-list1,.info-contact-list2,.info-contact-list3 {
+      padding: 20px 10px;
+}
+.info-contact-list1>p,.info-contact-list2>p,.info-contact-list3>p {
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#contact-touch {
+       padding: 0px 0px 30px 0px;
+    border-bottom: 6px solid #ccc;
+}
+.contact-touch-width>h3 {
+        font-size: 25px;
+        margin: 0px 0px;
+}
+.best-faculty-items-contact {
+        flex-wrap: wrap;
+        padding: 0px 15px;
+}
+
+element.style {
+}
+@media only screen and (min-width: 577px) and (max-width: 991px)
+.input-label-data {
+    justify-content: space-around;
+}
+.input-label-data-contact {
+     flex-basis: 47%;
+}
+.input-label-data-contact-btn>.input-btn>button {
+    margin-top: 0px !important;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 7px;
+}
+#find-route {
+       padding: 25px 0px;
+    border-bottom: 6px solid #ccc;
+}
+.find-route-width>h3 {
+        font-size: 25px;
+       margin: 0px;
+}
+}
+@media only screen and (min-width:992px) and (max-width:1319px){
+    .header-width,.info-contact-width,.contact-touch-width,.law-prep-tutorial-width,.footer-width,.footer-bottom-width{
+        width: 100%;
+}
+}
+
