@@ -1,7 +1,4 @@
 # lawprep
-# Ecommerce
-
-
 # Description
 
 Law Prep Tutorial is the leading CLAT coaching institute in India. It offers strategic law entrance coaching to aspirants help crack their dream exams.Developed an interactive education website, using HTML, CSS, and JavaScript
