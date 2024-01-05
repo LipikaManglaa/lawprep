@@ -15,6 +15,8 @@ Law Prep Tutorial is the leading CLAT coaching institute in India. It offers str
 
 * [Technologies-Used](#Technologies-Used)
 
+* [Screenshots](#Screenshots) 
+
 * [Installation](#installation)
   
 * [Instructions](#Instructions) 
@@ -31,6 +33,20 @@ Law Prep Tutorial is the leading CLAT coaching institute in India. It offers str
   *CSS
   *JAVASCRIPT
  
+ ### Screenshots
+ Home Screen
+   ![This is screenshot](./screenshot/index.png)
+ Career Screen
+   ![This is screenshot](./screenshot/career.png)
+
+ Result Screen
+   ![This is screenshot](./screenshot/result.png)
+
+ Blog Screen
+   ![This is screenshot](./screenshot/blog.png)
+
+ Contact Screen
+   ![This is screenshot](./screenshot/contact.png)
 
 
 ### Installing
